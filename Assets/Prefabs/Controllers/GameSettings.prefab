@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8995718713415928670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8995718713415928669}
+  - component: {fileID: 8995718713415928668}
+  m_Layer: 0
+  m_Name: GameSettings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8995718713415928669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8995718713415928670}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8995718713415928668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8995718713415928670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5792cd8a91b32d41b646215cf86f0b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentStepCount: 20
+  currentTimeStep: 15
+  currentNeededScore: 25
+  currentCoinsKoef: 0.5
+  defaultItems:
+  - id: 0
+    sprite: {fileID: 21300000, guid: 426e36c0bad5871458bf33b32ee9f7dc, type: 3}
+    particlesColor: {r: 0.7568628, g: 0.2627451, b: 0.5764706, a: 1}
+  - id: 1
+    sprite: {fileID: 21300000, guid: 1a7bf9b27402845478899aefe11b0145, type: 3}
+    particlesColor: {r: 0.8313726, g: 0.21568629, b: 0.21568629, a: 1}
+  - id: 2
+    sprite: {fileID: 21300000, guid: 1da0ad02fa1c28b4db42d54e2d21797b, type: 3}
+    particlesColor: {r: 0.20784315, g: 0.22352943, b: 0.65882355, a: 1}
+  - id: 3
+    sprite: {fileID: 21300000, guid: 7fae7491f4d70af4f8f9ca796a77e8e7, type: 3}
+    particlesColor: {r: 0.30588236, g: 0.6784314, b: 0.19215688, a: 1}
+  - id: 4
+    sprite: {fileID: 21300000, guid: d0b9377b56062c346a81603277b3f32e, type: 3}
+    particlesColor: {r: 0.52156866, g: 0.21960786, b: 0.72156864, a: 1}
+  Skin1Items:
+  - id: 0
+    sprite: {fileID: 21300000, guid: ee4e764d1681d8744bafd46c230e49d5, type: 3}
+    particlesColor: {r: 0.7725491, g: 0.18431373, b: 0.48627454, a: 1}
+  - id: 1
+    sprite: {fileID: 21300000, guid: bb52b8ef2e773e348a36ae54b9af8258, type: 3}
+    particlesColor: {r: 0.8862746, g: 0, b: 0, a: 1}
+  - id: 2
+    sprite: {fileID: 21300000, guid: 0a389f51f3867c648b43c0ba920c4482, type: 3}
+    particlesColor: {r: 0, g: 0.3019608, b: 0.8000001, a: 1}
+  - id: 3
+    sprite: {fileID: 21300000, guid: 48fffb4a35619644cb22fadba6a47b81, type: 3}
+    particlesColor: {r: 0, g: 0.6392157, b: 0.13333334, a: 1}
+  - id: 4
+    sprite: {fileID: 21300000, guid: d8a7237ca6a8e164f92fd23767f34fce, type: 3}
+    particlesColor: {r: 0.5764706, g: 0.19607845, b: 0.7843138, a: 1}
+  Skin2Items:
+  - id: 0
+    sprite: {fileID: 21300000, guid: 04233ca2ac79942478fb08f0791a1abd, type: 3}
+    particlesColor: {r: 0.92549026, g: 0.9176471, b: 0.65882355, a: 1}
+  - id: 1
+    sprite: {fileID: 21300000, guid: dc361f865f54bfb47ab20156053a552a, type: 3}
+    particlesColor: {r: 0.8470589, g: 0.8470589, b: 0.8470589, a: 1}
+  - id: 2
+    sprite: {fileID: 21300000, guid: 11f015bd2b3fee24dace295dce058f47, type: 3}
+    particlesColor: {r: 0.86666673, g: 0.5411765, b: 0.5411765, a: 1}
+  - id: 3
+    sprite: {fileID: 21300000, guid: 73690e95d31a8234392d7c94c9b7feb9, type: 3}
+    particlesColor: {r: 0.52156866, g: 0.5921569, b: 0.8588236, a: 1}
+  - id: 4
+    sprite: {fileID: 21300000, guid: 48d717c0326aecf4e86d9e1187cb7fb8, type: 3}
+    particlesColor: {r: 0.57254905, g: 0.87843144, b: 0.5882353, a: 1}
+  Skin3Items:
+  - id: 0
+    sprite: {fileID: 21300000, guid: a5063261e98d7bf4b8124aedf99387bc, type: 3}
+    particlesColor: {r: 0.87843144, g: 0.5294118, b: 0, a: 1}
+  - id: 1
+    sprite: {fileID: 21300000, guid: ae82b62de5fdb0540b2b500048e535f8, type: 3}
+    particlesColor: {r: 0.5176471, g: 0.18039216, b: 0.34509805, a: 1}
+  - id: 2
+    sprite: {fileID: 21300000, guid: 40b98894193f27c4eb33d01be9df73d7, type: 3}
+    particlesColor: {r: 0.8705883, g: 0.30588236, b: 0.8941177, a: 1}
+  - id: 3
+    sprite: {fileID: 21300000, guid: 939d118e052b36a4ab293bfa10506bac, type: 3}
+    particlesColor: {r: 0.627451, g: 0.82745105, b: 0.9176471, a: 1}
+  - id: 4
+    sprite: {fileID: 21300000, guid: c38fd11e043513342a6bb9ee8f6d718c, type: 3}
+    particlesColor: {r: 0.20000002, g: 0.003921569, b: 0.31764707, a: 1}
+  Skin4Items:
+  - id: 0
+    sprite: {fileID: 21300000, guid: 324f54c0a90ff6b44a71df3bce80910d, type: 3}
+    particlesColor: {r: 0.5529412, g: 0.33333334, b: 0.12941177, a: 1}
+  - id: 1
+    sprite: {fileID: 21300000, guid: a557e1e8945d61a4b88a580d0dadbdc8, type: 3}
+    particlesColor: {r: 0.9058824, g: 0.5686275, b: 0.007843138, a: 1}
+  - id: 2
+    sprite: {fileID: 21300000, guid: d59842b24820d2d4480a31908f6e2ebe, type: 3}
+    particlesColor: {r: 0.6, g: 0.44705886, b: 0.2627451, a: 1}
+  - id: 3
+    sprite: {fileID: 21300000, guid: 320ada05e77bdff448719ef80fb803c3, type: 3}
+    particlesColor: {r: 0.97647065, g: 0.6509804, b: 0.38431376, a: 1}
+  - id: 4
+    sprite: {fileID: 21300000, guid: fcde4b4ba2822ab4e9047d6fb8cb9c7c, type: 3}
+    particlesColor: {r: 0.23137257, g: 0.21960786, b: 0.21960786, a: 1}
+  Skin5Items:
+  - id: 0
+    sprite: {fileID: 21300000, guid: ac44fe6b22d19f749b2d3f13ea3dc262, type: 3}
+    particlesColor: {r: 0.9960785, g: 0.76470596, b: 0.3019608, a: 1}
+  - id: 1
+    sprite: {fileID: 21300000, guid: a311b52e2b1ab444da297c74ba17304f, type: 3}
+    particlesColor: {r: 0.8588236, g: 0.18823531, b: 0.31764707, a: 1}
+  - id: 2
+    sprite: {fileID: 21300000, guid: 28f903505f7f07f45a9dd9f092f7c1da, type: 3}
+    particlesColor: {r: 0.8705883, g: 0.16470589, b: 0.20392159, a: 1}
+  - id: 3
+    sprite: {fileID: 21300000, guid: 378ba2c5e447eee41bce51260d6a8038, type: 3}
+    particlesColor: {r: 0.9568628, g: 0.9568628, b: 0.9568628, a: 1}
+  - id: 4
+    sprite: {fileID: 21300000, guid: 3c03ed66bee10584789bfb7d6f6ce5c4, type: 3}
+    particlesColor: {r: 0.6666667, g: 0.10980393, b: 0.39607847, a: 1}
+  locationSkins:
+  - gameBoardSkin: {fileID: 21300000, guid: bbd3c39c4069e5340a3450b2baee2d68, type: 3}
+    gameBgSkin: {fileID: 21300000, guid: 5c48f772bc16f6b47b73e788300b40a2, type: 3}
+    chipLineSkin: {fileID: 21300000, guid: 9e28128182e2015489189e4c65cf1002, type: 3}
+    chipLineBgSkin: {fileID: 21300000, guid: 7dec78d525ec5634394979373239eb21, type: 3}
+    sidePanelsSkin: {fileID: 21300000, guid: d9a3637b7e224e7409f2da7a502a789f, type: 3}
+    horizontalPanelSkin: {fileID: 21300000, guid: 7b9340b881764f343b18caee45399608, type: 3}
+  - gameBoardSkin: {fileID: 21300000, guid: d869fb8b72386e842852c888afaa80e5, type: 3}
+    gameBgSkin: {fileID: 21300000, guid: d081e51c5ecfb4548909ef7fb5e6bb1e, type: 3}
+    chipLineSkin: {fileID: 21300000, guid: f62ab70c9b0cef54898c44610d3f44cd, type: 3}
+    chipLineBgSkin: {fileID: 21300000, guid: 7351760a6a334d34e8a4b61275f7fd2b, type: 3}
+    sidePanelsSkin: {fileID: 21300000, guid: 84fd6d1119c9a0e47a8a6c6cebdf83b1, type: 3}
+    horizontalPanelSkin: {fileID: 21300000, guid: a791414777049ed4e8a12f5c429c9b9e, type: 3}
+  - gameBoardSkin: {fileID: 21300000, guid: 4b5d1cd9760051b47a4c5165787e500a, type: 3}
+    gameBgSkin: {fileID: 21300000, guid: 636f6be520f26e94c9d571602f9eb1bc, type: 3}
+    chipLineSkin: {fileID: 21300000, guid: 50079e9374e8ee149b95bf47e4a69c4b, type: 3}
+    chipLineBgSkin: {fileID: 21300000, guid: 1314eb7a246fdc742b18e2c66e449db1, type: 3}
+    sidePanelsSkin: {fileID: 21300000, guid: c28139ebacc9cd34099350dd3c19d460, type: 3}
+    horizontalPanelSkin: {fileID: 21300000, guid: 655b29fd4a50a324d85490b24983a8c2, type: 3}
+  thisLvlInd: 0
